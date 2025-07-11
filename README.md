@@ -11,16 +11,15 @@ A simple Unity Editor tool to remap selected asset materials from a `Material` f
 
 # Installation
 
-### **Via Git URL**
+### Via Git URL
 
-   - Host this package on a Git repository (e.g., GitHub).
    - In Unity, open **Window > Package Manager**.
    - Click the **+** icon and choose **Add package from Git URL...**.
-   - Enter: `https://github.com/SantiagoApontePerez/MaterialRemapper.git`
+   - Enter: `https://github.com/SantiagoApontePerez/MaterialBatcher.git`
 
-### **Local Install**
+### Local Install
 
-Simply download the library into your Unity project and access the utilities across your scripts or import it in Unity with package manager using this URL:
+Simply download the library into your Unity project `Assets/` folder.
 
 ## Usage
 
@@ -28,6 +27,3 @@ Simply download the library into your Unity project and access the utilities acr
 2. Go to **Tools > Material Remapper**.
 3. Select the folder containing `materials`.
 4. Click **Remap Selected Assets**.
-
-## Versioning
-- **0.1.0**: Beta Release.
