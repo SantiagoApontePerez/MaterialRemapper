@@ -1,0 +1,14 @@
+{
+  "name": "com.santiagoaponteperez.materialremapper",
+  "displayName": "Material Remapper",
+  "description": "Remaps selected \".fbx\", \".obj\", and \".prefab\" materials from defined material folder and prefix. E.g., \"M_\".",
+  "version": "1.0.0",
+  "category": "editor extensions",
+  "keywords": ["texture", "material", "batch", "editor"],
+  "author": { 
+	"name": "Santiago Aponte Perez", 
+	"email": "https://github.com/SantiagoApontePerez" 
+	},
+  "documentationUrl": "https://github.com/SantiagoApontePerez/MaterialRemapper/blob/main/README.md",
+  "dependencies": {}
+}
