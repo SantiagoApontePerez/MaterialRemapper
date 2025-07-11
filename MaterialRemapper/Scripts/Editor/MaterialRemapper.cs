@@ -18,7 +18,10 @@ namespace MaterialRemapper
         #endregion
 
         [MenuItem("Tools/Material Remapper")]
-        private static void OpenWindow() => GetWindow<MaterialRemapper>(true, "Material Remapper");
+        private static void ShowWindow()
+        {
+            GetWindow<MaterialRemapper>("Material Remapper");
+        }
 
         #region Editor Window
         
