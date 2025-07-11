@@ -1,17 +1,22 @@
-# Material Batcher
+# Material Remapper
 
-<img width="620" height="175" alt="image" src="https://github.com/user-attachments/assets/8e3f7419-cdad-44fc-be99-eb28e12942ac" />
+<img width="551" height="175" alt="image" src="https://github.com/user-attachments/assets/6996603d-c524-4e2f-add9-d969ba7606e7" />
 
-A simple Unity Editor tool to batch-generate `Material` assets from `Texture2D` files.
+A simple Unity Editor tool to remap selected asset materials from a `Material` folder and `prefix`.
 
-## Installation
+# Features
+- Batch remap `.fbx`, `.obj`, and `.prefab` asset materials.
+- Specify materials folder.
+- Specify prefix. E.g., `M_` 
+
+# Installation
 
 ### **Via Git URL**
 
    - Host this package on a Git repository (e.g., GitHub).
    - In Unity, open **Window > Package Manager**.
    - Click the **+** icon and choose **Add package from Git URL...**.
-   - Enter: `https://github.com/SantiagoApontePerez/MaterialBatcher.git`
+   - Enter: `https://github.com/SantiagoApontePerez/MaterialRemapper.git`
 
 ### **Local Install**
 
@@ -20,9 +25,9 @@ Simply download the library into your Unity project and access the utilities acr
 ## Usage
 
 1. Open Unity and let the package import.
-2. Go to **Tools > Material Batcher**.
-3. Select the folder containing textures and choose a shader.
-4. Click **Generate Materials**.
+2. Go to **Tools > Material Remapper**.
+3. Select the folder containing `materials`.
+4. Click **Remap Selected Assets**.
 
 ## Versioning
 - **0.1.0**: Beta Release.
