@@ -5,7 +5,7 @@
 A simple Unity Editor tool to remap selected asset materials from a `Material` folder and `prefix`.
 
 # Features
-- Batch remap `.fbx`, `.obj`, and `.prefab` asset materials.
+- Batch remap selected `.fbx`, `.obj`, and `.prefab` asset materials.
 - Specify materials folder.
 - Specify prefix. E.g., `M_` 
 
